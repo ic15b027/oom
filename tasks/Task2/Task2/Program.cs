@@ -18,7 +18,7 @@ namespace Task2
             };
             foreach (var a in planes)
             {
-                Console.WriteLine($"Airlane is {a.Length}m long, has a wingspan of {a.Wingspan}m and is filled with {a.GetFuelLevel()}l of fuel.");
+                Console.WriteLine($"Airplane is {a.Length}m long, has a wingspan of {a.Wingspan}m and is filled with {a.GetFuelLevel()}l of fuel.");
             }
             Console.WriteLine("________________________________________");
             planes[0].Refuel(10000);
@@ -26,7 +26,7 @@ namespace Task2
             planes[2].Refuel(30000);
             foreach (var a in planes)
             {
-                Console.WriteLine($"Airlane is {a.Length}m long, has a wingspan of {a.Wingspan}m and is filled with {a.GetFuelLevel()}l of fuel.");
+                Console.WriteLine($"Airplane is {a.Length}m long, has a wingspan of {a.Wingspan}m and is filled with {a.GetFuelLevel()}l of fuel.");
             }
         }
     }
